@@ -8,10 +8,9 @@ CREATE TABLE questions (
     option_b VARCHAR(100),
     option_c VARCHAR(100),
     option_d VARCHAR(100),
-    correct_answer VARCHAR(100) -- Must match one of the options exactly
+    correct_answer VARCHAR(100)
 );
 
--- Insert sample data
 INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_answer) VALUES 
 ('What is the capital of France?', 'Berlin', 'Madrid', 'Paris', 'Rome', 'Paris'),
 ('Which data type is used for text in Java?', 'int', 'String', 'boolean', 'double', 'String'),
